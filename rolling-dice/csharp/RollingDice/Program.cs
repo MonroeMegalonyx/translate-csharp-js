@@ -24,8 +24,8 @@ for (int i = 0; i < 10; i++)
 Die Roll()
 {
     int dieValue = new Random().Next(1, 6);
-    Die die = new Die(dieValue);
-    return die;
+    Die tonyTaco = new Die(dieValue);
+    return tonyTaco;
 }
 
 // This class is used to define a "die" object (a single "dice")
